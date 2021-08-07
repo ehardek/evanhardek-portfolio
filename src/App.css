@@ -1,0 +1,64 @@
+
+/* .App {
+  text-align: center;
+} */
+
+.appHeader{
+  background-color: #282c34;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #e6e6e6;
+  border-bottom: thick solid #b01f15;
+}
+#nameTag {
+  background-color: #b01f15;
+  display: flex;
+  text-align: center;
+  align-self: flex-end;
+  margin-left: 5%;
+  padding: 15px;
+  border-radius: 25%;
+}
+.navbar {
+  background-color: inherit;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-self: flex-end;
+  margin-right:auto;
+  margin-left: auto;
+}
+.navbar a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-weight: bold;
+  background-color: #b01f15;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-top-left-radius:50%;
+  border-top-right-radius:50%;
+  padding: 10px;
+}
+.navbar #contactLink:hover { 
+  transform: scale(1,1.2); 
+}
+.navbar #projectLink:hover { 
+  transform: scale(1,1.2); 
+}
+.navbar #aboutLink:hover { 
+  transform: scale(1,1.2); 
+}
+
+@media only screen and (max-width: 600px) {
+  .appHeader {
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+  .navbar a {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+
