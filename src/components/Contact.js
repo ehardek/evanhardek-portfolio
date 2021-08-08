@@ -29,7 +29,7 @@ export default function Contact(){
       <p>
         Hello {firstName} {lastName}
       </p>
-      <form className="form">
+      <form>
         <input
           value={firstName}
           name="firstName"
